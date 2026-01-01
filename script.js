@@ -1,9 +1,9 @@
 // SONGS: update src names to files you have in music/ folder
 const songs = [
-  { title: "Song One", artist: "Artist A", src: "song1.mp3", cover: "cover1.jpg" },
-  { title: "Song Two", artist: "Artist B", src: "song2.mp3", cover: "cover2.jpg" },
-  { title: "Song Three", artist: "Artist C", src: "song3.mp3", cover: "cover3.jpg" },
-  { title: "Song Four", artist: "Artist D", src: "song4.mp3", cover: "cover4.jpg" }
+  { title: "it ain't me", artist: "Selena Gomez", src: "song1.mp3", cover: "cover1.jpg" },
+  {title: "Badli si hawa hai", artist: "various artist", src: "song3.mp3", cover: "cover1.jpg" },
+    { title: "Darkhast", artist: "various artist", src: "song4.mp3", cover: "cover1.jpg" }
+    { title: "Maidra", artist: "Seedhe Maut", src: "song5.mp3", cover: "cover1.jpg" }
 ];
  function loadSong(i) {
   document.getElementById("title").textContent = songs[i].title;
@@ -191,3 +191,4 @@ audio.addEventListener("pause", () => {
 audio.addEventListener("ended", () => {
   cover.classList.remove("cover-playing");
 });
+
