@@ -2,8 +2,8 @@
 const songs = [
   { title: "it ain't me", artist: "Selena Gomez", src: "song1.mp3", cover: "cover1.jpg" },
   {title: "Badli si hawa hai", artist: "various artist", src: "song3.mp3", cover: "cover1.jpg" },
-    { title: "Darkhast", artist: "various artist", src: "song4.mp3", cover: "cover1.jpg" }
-    { title: "Maidra", artist: "Seedhe Maut", src: "song5.mp3", cover: "cover1.jpg" }
+  { title: "Darkhast", artist: "various artist", src: "song4.mp3", cover: "cover1.jpg" },
+  { title: "Maidra", artist: "Seedhe Maut", src: "song5.mp3", cover: "cover1.jpg" }
 ];
  function loadSong(i) {
   document.getElementById("title").textContent = songs[i].title;
@@ -191,4 +191,5 @@ audio.addEventListener("pause", () => {
 audio.addEventListener("ended", () => {
   cover.classList.remove("cover-playing");
 });
+
 
